@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alfiya Nasir Sayyad | Aspiring Software Developer</title>
+
+    <meta name="description"
+          content="Portfolio of Alfiya Nasir Sayyad, BCA student and aspiring software developer.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+<!-- ================================
+     NAVBAR
+================================ -->
+
+<nav class="navbar">
+
+    <div class="nav-container">
+
+        <a href="#home" class="logo">
+            ALFIYA<span>.</span>
+        </a>
+
+        <div class="nav-links">
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+        <a href="#contact" class="nav-btn">
+            Let's Talk
+        </a>
+
+    </div>
+
+</nav>
+
+
+<!-- ================================
+     HERO SECTION
+================================ -->
+
+<section class="hero" id="home">
+
+    <div class="hero-container">
+
+        <div class="hero-content">
+
+            <p class="hero-small">
+                HELLO, I'M
+            </p>
+
+            <h1>
+                Alfiya Nasir
+                <span>Sayyad</span>
+            </h1>
+
+            <h2>
+                Aspiring Software Developer
+            </h2>
+
+            <p class="hero-description">
+                BCA undergraduate passionate about Java development,
+                full-stack technologies and building practical software
+                solutions.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="primary-btn">
+                    Explore My Work
+                </a>
+
+                <a href="#contact" class="secondary-btn">
+                    Contact Me
+                </a>
+
+            </div>
+
+            <!-- Resume -->
+
+            <a href="{{ url_for('static', filename='resume/Alfiya-Resume.pdf') }}"
+               class="resume-btn"
+               target="_blank">
+
+                View My Resume ↗
+
+            </a>
+
+            <!-- Social Links -->
+
+            <div class="social-links">
+
+                <a href="https://github.com/alfiyasayyad123"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="social-btn">
+
+                    GitHub ↗
+
+                </a>
+
+                <a href="https://www.linkedin.com/in/alfiya-sayyad-1a033934b/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="social-btn">
+
+                    LinkedIn ↗
+
+                </a>
+
+            </div>
+
+            <!-- Stats -->
+
+            <div class="hero-stats">
+
+                <div class="stat">
+
+                    <strong>7.66</strong>
+
+                    <span>CGPA</span>
+
+                </div>
+
+                <div class="stat">
+
+                    <strong>BCA</strong>
+
+                    <span>Final Year</span>
+
+                </div>
+
+                <div class="stat">
+
+                    <strong>Java</strong>
+
+                    <span>Full Stack</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Hero Visual -->
+
+        <div class="hero-visual">
+
+            <div class="developer-card">
+
+                <div class="card-top">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+
+                <div class="developer-avatar">
+
+                    👩🏻‍💻
+
+                </div>
+
+                <div class="code-box">
+
+                    <p>
+                        <span class="code-keyword">public</span>
+                        <span class="code-type">class</span>
+                        Developer {
+                    </p>
+
+                    <p class="indent">
+                        String name =
+                        <span class="code-string">
+                            "Alfiya";
+                        </span>
+                    </p>
+
+                    <p class="indent">
+                        String role =
+                        <span class="code-string">
+                            "Software Developer";
+                        </span>
+                    </p>
+
+                    <p>
+                        }
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================================
+     ABOUT SECTION
+================================ -->
+
+<section class="about section" id="about">
+
+    <div class="section-container">
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                ABOUT ME
+            </p>
+
+            <h2>
+                Building my journey
+                <span>in technology.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="about-grid">
+
+            <div class="about-content">
+
+                <p>
+                    I am a motivated BCA undergraduate currently pursuing
+                    my final year at KDK College of Engineering, Nagpur.
+                </p>
+
+                <p>
+                    I am interested in software development and enjoy
+                    learning Java, full-stack development, Python and
+                    modern web technologies.
+                </p>
+
+                <p>
+                    My goal is to start my career as a software developer,
+                    continuously improve my technical skills and contribute
+                    to meaningful real-world projects.
+                </p>
+
+            </div>
+
+
+            <div class="about-card">
+
+                <div class="about-card-number">
+                    01
+                </div>
+
+                <h3>
+                    Curious Learner
+                </h3>
+
+                <p>
+                    Always exploring new technologies and improving
+                    my development skills.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================================
+     SKILLS SECTION
+================================ -->
+
+<section class="skills section" id="skills">
+
+    <div class="section-container">
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                MY SKILLS
+            </p>
+
+            <h2>
+                Technologies I am
+                <span>working with.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+
+                <div class="skill-number">
+                    01
+                </div>
+
+                <h3>
+                    Java
+                </h3>
+
+                <p>
+                    Core Java, OOP concepts and application development.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-number">
+                    02
+                </div>
+
+                <h3>
+                    Java Full Stack
+                </h3>
+
+                <p>
+                    Backend development and full-stack web application
+                    concepts.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-number">
+                    03
+                </div>
+
+                <h3>
+                    Python
+                </h3>
+
+                <p>
+                    Basic Python programming and problem solving.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-number">
+                    04
+                </div>
+
+                <h3>
+                    Web Development
+                </h3>
+
+                <p>
+                    HTML, CSS, JavaScript and responsive website concepts.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-number">
+                    05
+                </div>
+
+                <h3>
+                    MS Excel
+                </h3>
+
+                <p>
+                    Data handling, formulas and spreadsheet operations.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-number">
+                    06
+                </div>
+
+                <h3>
+                    Problem Solving
+                </h3>
+
+                <p>
+                    Analytical thinking, logical reasoning and teamwork.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================================
+     PROJECTS SECTION
+================================ -->
+
+<section class="projects section" id="projects">
+
+    <div class="section-container">
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                SELECTED PROJECTS
+            </p>
+
+            <h2>
+                Things I've been
+                <span>building.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+            <!-- Project 01 -->
+
+            <div class="project-card">
+
+                <div class="project-top">
+
+                    <span class="project-number">
+                        01
+                    </span>
+
+                    <span class="project-arrow">
+                        ↗
+                    </span>
+
+                </div>
+
+                <h3>
+                    AI Resume Analyzer
+                </h3>
+
+                <p>
+                    An application designed to analyze resume content,
+                    identify important information and provide useful
+                    resume insights.
+                </p>
+
+                <div class="project-tags">
+
+                    <span>Java</span>
+                    <span>Spring Boot</span>
+                    <span>AI</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Project 02 -->
+
+            <div class="project-card">
+
+                <div class="project-top">
+
+                    <span class="project-number">
+                        02
+                    </span>
+
+                    <span class="project-arrow">
+                        ↗
+                    </span>
+
+                </div>
+
+                <h3>
+                    SmartFood
+                </h3>
+
+                <p>
+                    A full-stack food ordering application with user
+                    authentication, restaurant and food management,
+                    cart and checkout functionality.
+                </p>
+
+                <div class="project-tags">
+
+                    <span>Java</span>
+                    <span>Spring Boot</span>
+                    <span>MySQL</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Project 03 -->
+
+            <div class="project-card">
+
+                <div class="project-top">
+
+                    <span class="project-number">
+                        03
+                    </span>
+
+                    <span class="project-arrow">
+                        ↗
+                    </span>
+
+                </div>
+
+                <h3>
+                    ShopSphere
+                </h3>
+
+                <p>
+                    An e-commerce web application focused on product
+                    management and a smooth online shopping experience.
+                </p>
+
+                <div class="project-tags">
+
+                    <span>Spring Boot</span>
+                    <span>Java</span>
+                    <span>MySQL</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Project 04 -->
+
+            <div class="project-card">
+
+                <div class="project-top">
+
+                    <span class="project-number">
+                        04
+                    </span>
+
+                    <span class="project-arrow">
+                        ↗
+                    </span>
+
+                </div>
+
+                <h3>
+                    Smart Email Automation
+                </h3>
+
+                <p>
+                    A workflow automation concept designed to manage
+                    email-based tasks and reduce repetitive manual work.
+                </p>
+
+                <div class="project-tags">
+
+                    <span>Java</span>
+                    <span>Spring Boot</span>
+                    <span>Automation</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================================
+     EDUCATION SECTION
+================================ -->
+
+<section class="education section" id="education">
+
+    <div class="section-container">
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                EDUCATION
+            </p>
+
+            <h2>
+                My academic
+                <span>journey.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="education-grid">
+
+
+            <div class="education-card">
+
+                <div class="education-year">
+                    2024 — 2027
+                </div>
+
+                <h3>
+                    Bachelor of Computer Applications
+                </h3>
+
+                <p class="education-college">
+                    KDK College of Engineering, Nagpur
+                </p>
+
+                <p>
+                    Final Year • Pursuing
+                </p>
+
+                <div class="education-score">
+                    CGPA: <strong>7.66</strong>
+                </div>
+
+            </div>
+
+
+            <div class="cert-card">
+
+                <div class="cert-number">
+                    CERTIFICATIONS
+                </div>
+
+                <h3>
+                    Professional Learning
+                </h3>
+
+                <ul>
+
+                    <li>
+                        Java Full Stack
+                    </li>
+
+                    <li>
+                        Python
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================================
+     CONTACT SECTION
+================================ -->
+
+<section class="contact section" id="contact">
+
+    <div class="section-container">
+
+        <div class="contact-grid">
+
+
+            <div class="contact-content">
+
+                <p class="section-label">
+                    GET IN TOUCH
+                </p>
+
+                <h2>
+                    Let's build something
+                    <span>great together.</span>
+                </h2>
+
+                <p>
+                    I am open to entry-level software development
+                    opportunities, internships and projects where I can
+                    learn, contribute and grow.
+                </p>
+
+
+                <div class="contact-buttons">
+
+                    <a href="mailto:alfiyasayyad852@gmail.com"
+                       class="primary-btn">
+
+                        Email Me ↗
+
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/alfiya-sayyad-1a033934b/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="secondary-btn">
+
+                        LinkedIn ↗
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-info">
+
+
+                <div class="contact-item">
+
+                    <span>
+                        EMAIL
+                    </span>
+
+                    <a href="mailto:alfiyasayyad852@gmail.com">
+
+                        alfiyasayyad852@gmail.com
+
+                    </a>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <span>
+                        LOCATION
+                    </span>
+
+                    <p>
+                        Nagpur, Maharashtra, India
+                    </p>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <span>
+                        LANGUAGES
+                    </span>
+
+                    <p>
+                        English • Hindi • Marathi
+                    </p>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <span>
+                        SOCIAL
+                    </span>
+
+                    <div class="contact-social">
+
+                        <a href="https://github.com/alfiyasayyad123"
+                           target="_blank"
+                           rel="noopener noreferrer">
+
+                            GitHub
+
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/alfiya-sayyad-1a033934b/"
+                           target="_blank"
+                           rel="noopener noreferrer">
+
+                            LinkedIn
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================================
+     FOOTER
+================================ -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-logo">
+            ALFIYA<span>.</span>
+        </div>
+
+        <p>
+            Aspiring Software Developer
+        </p>
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 Alfiya Nasir Sayyad
+            </span>
+
+            <span>
+                Built with Flask
+            </span>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- ================================
+     JAVASCRIPT
+================================ -->
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+
+</html>
